@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C05BA7C2468920B000D8877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C05BA7B2468920B000D8877 /* AppDelegate.swift */; };
+		6C05BA7E2468920B000D8877 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C05BA7D2468920B000D8877 /* SceneDelegate.swift */; };
+		6C05BA802468920B000D8877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C05BA7F2468920B000D8877 /* ViewController.swift */; };
+		6C05BA832468920B000D8877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C05BA812468920B000D8877 /* Main.storyboard */; };
+		6C05BA852468920C000D8877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C05BA842468920C000D8877 /* Assets.xcassets */; };
+		6C05BA882468920C000D8877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C05BA862468920C000D8877 /* LaunchScreen.storyboard */; };
+		6C05BA932468920D000D8877 /* BrainTapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C05BA922468920D000D8877 /* BrainTapAppTests.swift */; };
+		6C05BA9E2468920D000D8877 /* BrainTapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C05BA9D2468920D000D8877 /* BrainTapAppUITests.swift */; };
+		6C05BAAE246892E3000D8877 /* FDWaveformView in Frameworks */ = {isa = PBXBuildFile; productRef = 6C05BAAD246892E3000D8877 /* FDWaveformView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C05BA8F2468920D000D8877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C05BA702468920B000D8877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C05BA772468920B000D8877;
+			remoteInfo = BrainTapApp;
+		};
+		6C05BA9A2468920D000D8877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C05BA702468920B000D8877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C05BA772468920B000D8877;
+			remoteInfo = BrainTapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C05BA782468920B000D8877 /* BrainTapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C05BA7B2468920B000D8877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C05BA7D2468920B000D8877 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C05BA7F2468920B000D8877 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C05BA822468920B000D8877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C05BA842468920C000D8877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C05BA872468920C000D8877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C05BA892468920C000D8877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C05BA8E2468920D000D8877 /* BrainTapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainTapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C05BA922468920D000D8877 /* BrainTapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTapAppTests.swift; sourceTree = "<group>"; };
+		6C05BA942468920D000D8877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C05BA992468920D000D8877 /* BrainTapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainTapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C05BA9D2468920D000D8877 /* BrainTapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTapAppUITests.swift; sourceTree = "<group>"; };
+		6C05BA9F2468920D000D8877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C05BAAB2468921F000D8877 /* BrainTapApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrainTapApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C05BA752468920B000D8877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C05BAAE246892E3000D8877 /* FDWaveformView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C05BA8B2468920D000D8877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C05BA962468920D000D8877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C05BA6F2468920B000D8877 = {
+			isa = PBXGroup;
+			children = (
+				6C05BA7A2468920B000D8877 /* BrainTapApp */,
+				6C05BA912468920D000D8877 /* BrainTapAppTests */,
+				6C05BA9C2468920D000D8877 /* BrainTapAppUITests */,
+				6C05BA792468920B000D8877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C05BA792468920B000D8877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C05BA782468920B000D8877 /* BrainTapApp.app */,
+				6C05BA8E2468920D000D8877 /* BrainTapAppTests.xctest */,
+				6C05BA992468920D000D8877 /* BrainTapAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C05BA7A2468920B000D8877 /* BrainTapApp */ = {
+			isa = PBXGroup;
+			children = (
+				6C05BAAB2468921F000D8877 /* BrainTapApp.entitlements */,
+				6C05BA7B2468920B000D8877 /* AppDelegate.swift */,
+				6C05BA7D2468920B000D8877 /* SceneDelegate.swift */,
+				6C05BA7F2468920B000D8877 /* ViewController.swift */,
+				6C05BA812468920B000D8877 /* Main.storyboard */,
+				6C05BA842468920C000D8877 /* Assets.xcassets */,
+				6C05BA862468920C000D8877 /* LaunchScreen.storyboard */,
+				6C05BA892468920C000D8877 /* Info.plist */,
+			);
+			path = BrainTapApp;
+			sourceTree = "<group>";
+		};
+		6C05BA912468920D000D8877 /* BrainTapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C05BA922468920D000D8877 /* BrainTapAppTests.swift */,
+				6C05BA942468920D000D8877 /* Info.plist */,
+			);
+			path = BrainTapAppTests;
+			sourceTree = "<group>";
+		};
+		6C05BA9C2468920D000D8877 /* BrainTapAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C05BA9D2468920D000D8877 /* BrainTapAppUITests.swift */,
+				6C05BA9F2468920D000D8877 /* Info.plist */,
+			);
+			path = BrainTapAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C05BA772468920B000D8877 /* BrainTapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C05BAA22468920D000D8877 /* Build configuration list for PBXNativeTarget "BrainTapApp" */;
+			buildPhases = (
+				6C05BA742468920B000D8877 /* Sources */,
+				6C05BA752468920B000D8877 /* Frameworks */,
+				6C05BA762468920B000D8877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainTapApp;
+			packageProductDependencies = (
+				6C05BAAD246892E3000D8877 /* FDWaveformView */,
+			);
+			productName = BrainTapApp;
+			productReference = 6C05BA782468920B000D8877 /* BrainTapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C05BA8D2468920D000D8877 /* BrainTapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C05BAA52468920D000D8877 /* Build configuration list for PBXNativeTarget "BrainTapAppTests" */;
+			buildPhases = (
+				6C05BA8A2468920D000D8877 /* Sources */,
+				6C05BA8B2468920D000D8877 /* Frameworks */,
+				6C05BA8C2468920D000D8877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C05BA902468920D000D8877 /* PBXTargetDependency */,
+			);
+			name = BrainTapAppTests;
+			productName = BrainTapAppTests;
+			productReference = 6C05BA8E2468920D000D8877 /* BrainTapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C05BA982468920D000D8877 /* BrainTapAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C05BAA82468920D000D8877 /* Build configuration list for PBXNativeTarget "BrainTapAppUITests" */;
+			buildPhases = (
+				6C05BA952468920D000D8877 /* Sources */,
+				6C05BA962468920D000D8877 /* Frameworks */,
+				6C05BA972468920D000D8877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C05BA9B2468920D000D8877 /* PBXTargetDependency */,
+			);
+			name = BrainTapAppUITests;
+			productName = BrainTapAppUITests;
+			productReference = 6C05BA992468920D000D8877 /* BrainTapAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C05BA702468920B000D8877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = PineTech;
+				TargetAttributes = {
+					6C05BA772468920B000D8877 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					6C05BA8D2468920D000D8877 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 6C05BA772468920B000D8877;
+					};
+					6C05BA982468920D000D8877 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 6C05BA772468920B000D8877;
+					};
+				};
+			};
+			buildConfigurationList = 6C05BA732468920B000D8877 /* Build configuration list for PBXProject "BrainTapApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C05BA6F2468920B000D8877;
+			packageReferences = (
+				6C05BAAC246892E3000D8877 /* XCRemoteSwiftPackageReference "FDWaveformView" */,
+			);
+			productRefGroup = 6C05BA792468920B000D8877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C05BA772468920B000D8877 /* BrainTapApp */,
+				6C05BA8D2468920D000D8877 /* BrainTapAppTests */,
+				6C05BA982468920D000D8877 /* BrainTapAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C05BA762468920B000D8877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C05BA882468920C000D8877 /* LaunchScreen.storyboard in Resources */,
+				6C05BA852468920C000D8877 /* Assets.xcassets in Resources */,
+				6C05BA832468920B000D8877 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C05BA8C2468920D000D8877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C05BA972468920D000D8877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C05BA742468920B000D8877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C05BA802468920B000D8877 /* ViewController.swift in Sources */,
+				6C05BA7C2468920B000D8877 /* AppDelegate.swift in Sources */,
+				6C05BA7E2468920B000D8877 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C05BA8A2468920D000D8877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C05BA932468920D000D8877 /* BrainTapAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C05BA952468920D000D8877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C05BA9E2468920D000D8877 /* BrainTapAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C05BA902468920D000D8877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C05BA772468920B000D8877 /* BrainTapApp */;
+			targetProxy = 6C05BA8F2468920D000D8877 /* PBXContainerItemProxy */;
+		};
+		6C05BA9B2468920D000D8877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C05BA772468920B000D8877 /* BrainTapApp */;
+			targetProxy = 6C05BA9A2468920D000D8877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C05BA812468920B000D8877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C05BA822468920B000D8877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C05BA862468920C000D8877 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C05BA872468920C000D8877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C05BAA02468920D000D8877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C05BAA12468920D000D8877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C05BAA32468920D000D8877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrainTapApp/BrainTapApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ABPLV2832;
+				INFOPLIST_FILE = BrainTapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinetech.BrainTapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C05BAA42468920D000D8877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrainTapApp/BrainTapApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ABPLV2832;
+				INFOPLIST_FILE = BrainTapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinetech.BrainTapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C05BAA62468920D000D8877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ABPLV2832;
+				INFOPLIST_FILE = BrainTapAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinetech.BrainTapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainTapApp.app/BrainTapApp";
+			};
+			name = Debug;
+		};
+		6C05BAA72468920D000D8877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ABPLV2832;
+				INFOPLIST_FILE = BrainTapAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinetech.BrainTapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainTapApp.app/BrainTapApp";
+			};
+			name = Release;
+		};
+		6C05BAA92468920D000D8877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ABPLV2832;
+				INFOPLIST_FILE = BrainTapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinetech.BrainTapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainTapApp;
+			};
+			name = Debug;
+		};
+		6C05BAAA2468920D000D8877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ABPLV2832;
+				INFOPLIST_FILE = BrainTapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinetech.BrainTapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainTapApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C05BA732468920B000D8877 /* Build configuration list for PBXProject "BrainTapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C05BAA02468920D000D8877 /* Debug */,
+				6C05BAA12468920D000D8877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C05BAA22468920D000D8877 /* Build configuration list for PBXNativeTarget "BrainTapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C05BAA32468920D000D8877 /* Debug */,
+				6C05BAA42468920D000D8877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C05BAA52468920D000D8877 /* Build configuration list for PBXNativeTarget "BrainTapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C05BAA62468920D000D8877 /* Debug */,
+				6C05BAA72468920D000D8877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C05BAA82468920D000D8877 /* Build configuration list for PBXNativeTarget "BrainTapAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C05BAA92468920D000D8877 /* Debug */,
+				6C05BAAA2468920D000D8877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C05BAAC246892E3000D8877 /* XCRemoteSwiftPackageReference "FDWaveformView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fulldecent/FDWaveformView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C05BAAD246892E3000D8877 /* FDWaveformView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C05BAAC246892E3000D8877 /* XCRemoteSwiftPackageReference "FDWaveformView" */;
+			productName = FDWaveformView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6C05BA702468920B000D8877 /* Project object */;
+}
